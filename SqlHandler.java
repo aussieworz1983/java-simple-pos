@@ -46,7 +46,7 @@ public class SqlHandler
 
         try{
 
-            conn = DriverManager.getConnection(db,"adminepos","atkinson1983");
+            conn = DriverManager.getConnection(db,"adminepos","password");
             state=true;
             System.out.println("db connected sucessfully");
         }catch (Exception e){
